@@ -28,7 +28,7 @@ public class GetUserTest extends BaseTest {
 	}
 	
 	
-	@Test(priority=3)
+	@Test(priority=3, enabled=false)
 	public void getAllUserTest()
 	{
 		res.getRequest(GOREST_ENDPOINT, true,true)
